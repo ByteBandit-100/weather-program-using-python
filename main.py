@@ -19,14 +19,14 @@ status = {
     "clear sky"  : "🌞",
     "snow":"❄️"
 }
-
+key = '259af413e4e878a10cf624c77ab5e67c'
 while True:
     print('X--------------------- Search Weather ---------------------X\n')
 
     city_name = input('Enter city or q for quit : ').lower()
     if city_name == 'q':
         break
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid=259af413e4e878a10cf624c77ab5e67c'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={key}'
     r = None
     try:
         r = requests.get(url)
