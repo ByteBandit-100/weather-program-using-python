@@ -19,6 +19,8 @@ status = {
     "clear sky"  : "🌞",
     "snow":"❄️"
 }
+
+# use your own API key from openweathermap.org
 key = '2***************c'
 while True:
     print('X--------------------- Search Weather ---------------------X\n')
