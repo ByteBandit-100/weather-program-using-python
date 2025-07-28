@@ -19,7 +19,7 @@ status = {
     "clear sky"  : "🌞",
     "snow":"❄️"
 }
-key = '259af413e4e878a10cf624c77ab5e67c'
+key = '2***************c'
 while True:
     print('X--------------------- Search Weather ---------------------X\n')
 
